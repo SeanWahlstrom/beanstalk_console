@@ -74,7 +74,7 @@ if (!empty($servers)):
                 <h1>Hello!</h1>
 
                 <p class="lead">
-                    This is Beanstalk console,<br/>web-interface for
+                    This is Beanstalker,<br/>web-interface for
                     <a href="http://kr.github.io/beanstalkd/" target="_blank">simple and fast work queue</a>
                 </p>
 

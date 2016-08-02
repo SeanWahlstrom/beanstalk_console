@@ -8,7 +8,7 @@ $servers = $console->getServers();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Beanstalk console</title>
+        <title>Beanstalker</title>
 
         <!-- Bootstrap core CSS -->
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@ $servers = $console->getServers();
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php">Beanstalk console</a>
+                        <a class="navbar-brand" href="index.php">Beanstalker</a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
@@ -140,6 +140,7 @@ $servers = $console->getServers();
                                     <li><a href="https://github.com/kr/beanstalkd/blob/master/doc/protocol.md">Protocol Specification</a></li>
                                     <li class="divider"></li>
                                     <li><a href="https://github.com/ptrofimov/beanstalk_console">Beanstalk console (github)</a></li>
+                                    <li><a href="https://github.com/SeanWahlstrom/beanstalker">Beanstalker (github)</a></li>
                                 </ul>
                             </li>
     <?php if ($server && !$tube) { ?>
